@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 6/8/20 12:54 PM
+  -->
+
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/watch_view_stub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:rectLayout="@layout/rect_activity_home"
+    app:roundLayout="@layout/round_activity_home"
+    tools:context="nyp.edu.sg.pamatewear.HomeActivity"
+    tools:deviceIds="wear">
+
+    <android.support.wearable.view.GridViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        />
+
+    <android.support.wearable.view.DotsPageIndicator
+        android:id="@+id/page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dotColor="#35B7FF"
+        android:layout_gravity="center_horizontal|bottom" />
+</android.support.wearable.view.BoxInsetLayout>

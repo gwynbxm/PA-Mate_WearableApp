@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 6/8/20 12:54 PM
+  -->
+
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/today_ep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_box="left|bottom|right"
+    app:rectLayout="@layout/rect_activity_today_exercise_plan"
+    app:roundLayout="@layout/round_activity_today_exercise_plan"
+    tools:context="nyp.edu.sg.pamatewear.TodayExercisePlanActivity"
+    tools:deviceIds="wear">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_box="all">
+
+
+        <LinearLayout
+            android:id="@+id/today_ep_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom|center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:src="@drawable/ic_assignment_black_24dp" />
+
+            <TextView
+                android:id="@+id/tvTodayDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|center"
+                android:text="@string/today_date"
+                android:textColor="#028CD8"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--<ListView-->
+        <!--android:id="@+id/lvExercisePlans"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/today_ep_title">-->
+
+        <!--</ListView>-->
+
+        <android.support.wearable.view.WearableRecyclerView
+            android:id="@+id/rvExercisePlans"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/today_ep_title" />
+    </RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>

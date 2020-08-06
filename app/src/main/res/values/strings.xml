@@ -1,0 +1,51 @@
+<!--
+  ~ Copyright (c) 2020 Gwyn Bong Xiao Min.
+  ~ All rights reserved.
+  ~ Last Modified 6/8/20 12:54 PM
+  -->
+
+<resources>
+    <string name="app_name">PA-Mate</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_today_exercise_plan">TodayExercisePlanActivity</string>
+    <string name="title_activity_measure_exercise">MeasureExerciseActivity</string>
+    <string name="title_activity_heart_rate">HeartRateActivity</string>
+    <string name="title_activity_steps">StepsActivity</string>
+
+    <string name="step_counter">android.hardware.sensor.stepcounter</string>
+    <string name="step_detector">android.hardware.sensor.stepdetector</string>
+    <string name="title_activity_recorded_details">RecordedDetailsActivity</string>
+    <string name="title_activity_today_plan">TodayPlanActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_summary">SummaryActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="reset_timer">00:00:00</string>
+    <string name="title_activity_exercise_plan_details">ExercisePlanDetailsActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="plan_duration" />
+    <string name="plan_heart_rate" />
+    <string name="plan_steps" />
+    <string name="plan_calories" />
+    <string name="plan_distance" />
+    <string name="heart_rate">loading…</string>
+    <string name="heart_rate_unit">bpm</string>
+    <string name="record_value">00:00:00</string>
+    <string name="record_plan_name" />
+    <string name="recorded_plan_name" />
+    <string name="recorded_duration" />
+    <string name="recorded_heart_rate" />
+    <string name="recorded_steps" />
+    <string name="recorded_calories" />
+    <string name="recorded_distance" />
+    <string name="start_app">START!</string>
+    <string name="steps_count" />
+    <string name="steps_count_unit">steps</string>
+    <string name="percentage_value">60</string>
+    <string name="today_date" />
+    <string name="today_plan_name" />
+    <string name="today_plan_date" />
+    <string name="recording_heart_rate" />
+    <string name="recording_step_count" />
+</resources>
