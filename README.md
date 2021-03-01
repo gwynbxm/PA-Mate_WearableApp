@@ -27,7 +27,7 @@ PA-Mate stands for Physical Activity Mate. It targets elderly aged 65 and above 
 
 ### Technologies
 * Android Studio 
-* Azure
+* Azure Cloud Database
 
 ### Hardware
 * HUAWEI Watch 2
