@@ -10,7 +10,7 @@
   <li><a href="#technologies">Technologies</a></li>
    <li><a href="#hardware">Hardware</a></li>
   <li><a href="#features">Features</a></li>
-  <li><a href="#screenshots">Screenshots</a></li>
+  <li><a href="https://github.com/gwynbxm/PA-Mate_WearableApp/tree/master/designs">Designs</a></li>
 </ol>
 </details>
 
@@ -45,5 +45,3 @@ PA-Mate stands for Physical Activity Mate. It targets elderly aged 65 and above 
   * Its recorded exercise performance
 * Heart Rate Measurement
 * Steps Count
-
-### Screenshots
